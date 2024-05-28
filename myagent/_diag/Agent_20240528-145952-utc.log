@@ -1,0 +1,546 @@
+[2024-05-28 14:59:52Z INFO AgentProcess] Agent package osx-arm64.
+[2024-05-28 14:59:52Z INFO AgentProcess] Running on OSX (Arm64).
+[2024-05-28 14:59:52Z INFO AgentProcess] RuntimeInformation: Darwin 23.4.0 Darwin Kernel Version 23.4.0: Fri Mar 15 00:10:42 PDT 2024; root:xnu-10063.101.17~1/RELEASE_ARM64_T6000.
+[2024-05-28 14:59:52Z INFO AgentProcess] Version: 3.239.1
+[2024-05-28 14:59:52Z INFO AgentProcess] Commit: 7feec172173abf91036040f45d38eb0cf7a4d45c
+[2024-05-28 14:59:52Z INFO AgentProcess] Culture: en-US
+[2024-05-28 14:59:52Z INFO AgentProcess] UI Culture: en-US
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO AgentProcess] Validating directory permissions for: '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Setting up value for origin: Configure.Password
+[2024-05-28 14:59:52Z INFO HostContext] Value is empty.
+[2024-05-28 14:59:52Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2024-05-28 14:59:52Z INFO HostContext] Value is empty.
+[2024-05-28 14:59:52Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2024-05-28 14:59:52Z INFO HostContext] Value is empty.
+[2024-05-28 14:59:52Z INFO HostContext] Setting up value for origin: Configure.Token
+[2024-05-28 14:59:52Z INFO HostContext] Value is empty.
+[2024-05-28 14:59:52Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2024-05-28 14:59:52Z INFO HostContext] Value is empty.
+[2024-05-28 14:59:52Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2024-05-28 14:59:52Z INFO AgentProcess] Arguments parsed
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Proxy': '/Users/cjoga/myagent/.proxy'
+[2024-05-28 14:59:52Z INFO VstsAgentWebProxy] No proxy setting found.
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Certificates': '/Users/cjoga/myagent/.certificates'
+[2024-05-28 14:59:52Z INFO AgentCertificateManager] No certificate setting found.
+[2024-05-28 14:59:52Z INFO Agent] ExecuteCommand
+[2024-05-28 14:59:52Z INFO ConfigurationStore] currentAssemblyLocation: /Users/cjoga/myagent/bin/Agent.Listener.dll
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] binPath: /Users/cjoga/myagent/bin
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] RootFolder: /Users/cjoga/myagent
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Agent': '/Users/cjoga/myagent/.agent'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] ConfigFilePath: /Users/cjoga/myagent/.agent
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Credentials': '/Users/cjoga/myagent/.credentials'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] CredFilePath: /Users/cjoga/myagent/.credentials
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Service': '/Users/cjoga/myagent/.service'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/cjoga/myagent/.service
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Autologon': '/Users/cjoga/myagent/.autologon'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/cjoga/myagent/.autologon
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'Options': '/Users/cjoga/myagent/.options'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/cjoga/myagent/.options
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO HostContext] Well known config file 'SetupInfo': '/Users/cjoga/myagent/.setup_info'
+[2024-05-28 14:59:52Z INFO ConfigurationStore] SetupInfoFilePath: /Users/cjoga/myagent/.setup_info
+[2024-05-28 14:59:52Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v3.239.1             |_|          (commit 7feec17)
+
+[2024-05-28 14:59:52Z INFO ConfigurationManager] ConfigureAsync
+[2024-05-28 14:59:52Z INFO ConfigurationStore] IsConfigured()
+[2024-05-28 14:59:52Z INFO ConfigurationStore] IsConfigured: False
+[2024-05-28 14:59:52Z INFO ConfigurationManager] Is configured: False
+[2024-05-28 14:59:52Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-05-28 14:59:52Z INFO Terminal] WRITE LINE: 
+[2024-05-28 14:59:52Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2024-05-28 14:59:52Z INFO Terminal] WRITE LINE: 
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 14:59:52Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 14:59:52Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /Users/cjoga/myagent/license.html
+[2024-05-28 14:59:52Z INFO Terminal] WRITE LINE: 
+[2024-05-28 14:59:52Z INFO CommandSettings] Flag 'acceptteeeula': 'False'
+[2024-05-28 14:59:52Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 14:59:52Z INFO PromptManager] ReadValue
+[2024-05-28 14:59:52Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2024-05-28 14:59:52Z INFO Terminal] READ LINE
+[2024-05-28 14:59:53Z INFO Terminal] Read value: 'y'
+[2024-05-28 14:59:53Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2024-05-28 14:59:53Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2024-05-28 14:59:53Z INFO CommandSettings] Flag 'environment': 'False'
+[2024-05-28 14:59:53Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2024-05-28 14:59:53Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2024-05-28 14:59:53Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2024-05-28 14:59:53Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2024-05-28 14:59:53Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2024-05-28 14:59:53Z INFO Terminal] WRITE LINE: 
+[2024-05-28 14:59:53Z INFO Terminal] WRITE LINE: >> Connect:
+[2024-05-28 14:59:53Z INFO Terminal] WRITE LINE: 
+[2024-05-28 14:59:53Z INFO CommandSettings] Arg 'url': ''
+[2024-05-28 14:59:53Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 14:59:53Z INFO PromptManager] ReadValue
+[2024-05-28 14:59:53Z INFO Terminal] WRITE: Enter server URL > 
+[2024-05-28 14:59:53Z INFO Terminal] READ LINE
+[2024-05-28 15:00:12Z INFO Terminal] Read value: 'https://dev.azure.com/JCJG0001'
+[2024-05-28 15:00:12Z INFO ConfigurationManager] GetCredentialProvider
+[2024-05-28 15:00:12Z INFO CommandSettings] Arg 'auth': ''
+[2024-05-28 15:00:12Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 15:00:12Z INFO PromptManager] ReadValue
+[2024-05-28 15:00:12Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-05-28 15:00:12Z INFO Terminal] READ LINE
+[2024-05-28 15:00:13Z INFO Terminal] Read value: ''
+[2024-05-28 15:00:13Z INFO PromptManager] Falling back to the default: 'PAT'
+[2024-05-28 15:00:13Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2024-05-28 15:00:13Z INFO CredentialManager] GetCredentialProvider
+[2024-05-28 15:00:13Z INFO CredentialManager] Creating type PAT
+[2024-05-28 15:00:13Z INFO CredentialManager] Creating credential type: PAT
+[2024-05-28 15:00:13Z INFO PersonalAccessToken] EnsureCredential
+[2024-05-28 15:00:13Z INFO CommandSettings] Arg 'token': ''
+[2024-05-28 15:00:13Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 15:00:13Z INFO PromptManager] ReadValue
+[2024-05-28 15:00:13Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-05-28 15:00:13Z INFO Terminal] READ SECRET
+[2024-05-28 15:00:14Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2024-05-28 15:00:14Z INFO Terminal] Read value: '***'
+[2024-05-28 15:00:14Z INFO ConfigurationManager] cred retrieved
+[2024-05-28 15:00:14Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-05-28 15:00:14Z INFO PersonalAccessToken] GetVssCredentials
+[2024-05-28 15:00:14Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2024-05-28 15:00:14Z INFO PersonalAccessToken] cred created
+[2024-05-28 15:00:14Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO PersonalAccessToken] GetVssCredentials
+[2024-05-28 15:00:15Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2024-05-28 15:00:15Z INFO PersonalAccessToken] cred created
+[2024-05-28 15:00:15Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2024-05-28 15:00:15Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:15Z INFO ConfigurationManager] Test Connection complete.
+[2024-05-28 15:00:15Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:15Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 15:00:15Z INFO HostContext] Well known config file 'RSACredentials': '/Users/cjoga/myagent/.credentials_rsaparams'
+[2024-05-28 15:00:15Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-05-28 15:00:16Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:16Z INFO RSAFileKeyManager] Which: 'chmod'
+[2024-05-28 15:00:16Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2024-05-28 15:00:16Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:16Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/cjoga/myagent/.credentials_rsaparams'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Working directory: '/Users/cjoga/myagent'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] Process started with process id 78183, waiting for process exit.
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] Exited process 78183 with exit code 0
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-28 15:00:16Z INFO ProcessInvokerWrapper] Finished process 78183 with exit code 0, and elapsed time 00:00:00.0686115.
+[2024-05-28 15:00:16Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:16Z INFO Terminal] WRITE LINE: 
+[2024-05-28 15:00:16Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2024-05-28 15:00:16Z INFO Terminal] WRITE LINE: 
+[2024-05-28 15:00:16Z INFO CommandSettings] Arg 'pool': ''
+[2024-05-28 15:00:16Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 15:00:16Z INFO PromptManager] ReadValue
+[2024-05-28 15:00:16Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2024-05-28 15:00:16Z INFO Terminal] READ LINE
+[2024-05-28 15:00:30Z INFO Terminal] Read value: 'FLBETANCES - POOL'
+[2024-05-28 15:00:31Z INFO BuildReleasesAgentConfigProvider] Found pool FLBETANCES - POOL with id 10 and name FLBETANCES - POOL
+[2024-05-28 15:00:31Z INFO CommandSettings] Arg 'agent': ''
+[2024-05-28 15:00:31Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 15:00:31Z INFO PromptManager] ReadValue
+[2024-05-28 15:00:31Z INFO Terminal] WRITE: Enter agent name (press enter for ip-192-168-86-200) > 
+[2024-05-28 15:00:31Z INFO Terminal] READ LINE
+[2024-05-28 15:00:32Z INFO Terminal] Read value: ''
+[2024-05-28 15:00:32Z INFO PromptManager] Falling back to the default: 'ip-192-168-86-200'
+[2024-05-28 15:00:32Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2024-05-28 15:00:32Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2024-05-28 15:00:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-05-28 15:00:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-05-28 15:00:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-05-28 15:00:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding '__CFBundleIdentifier': 'dev.warp.Warp-Stable'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'COMMAND_MODE': 'unix2003'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_CHANGEPS1': 'false'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/Users/cjoga'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_PREFIX': '/opt/homebrew'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_REPOSITORY': '/opt/homebrew'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'INFOPATH': '/opt/homebrew/share/info:'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'cjoga'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'MANPATH': '/opt/homebrew/share/man::'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/Users/cjoga/myagent'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/Users/cjoga/.console-ninja/.bin:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/opt/homebrew/opt/bison/bin:/Users/cjoga/.rd/bin:/Users/cjoga/Library/Python/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/rar:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/cjoga/.dotnet/tools'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/Users/cjoga/myagent'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/zsh'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.SeHgbSBtKg/Listeners'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_SOCKET_DIR': '~/.ssh'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'TMPDIR': '/var/folders/cb/_dkh39gn42d010gmk0l4l0m40000gn/T/'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'cjoga'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_COMBINED_PROMPT_COMMAND_GRID': '0'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_HONOR_PS1': '0'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_IS_LOCAL_SHELL_SESSION': '1'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_FLAGS': '0x0'
+[2024-05-28 15:00:32Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_SERVICE_NAME': '0'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'android'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Users/cjoga/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'ant'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'bundler': '/usr/bin/bundle'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'clang'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'clang': '/usr/bin/clang'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'curl'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'docker'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'docker': '/Users/cjoga/.rd/bin/docker'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'dotnet': '/usr/local/share/dotnet/dotnet'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'git'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'java'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'java': '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'javac'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'make'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'node'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'node.js': '/usr/local/bin/node'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'npm'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'npm': '/usr/local/bin/npm'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'python'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'python3'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'python3': '/opt/homebrew/bin/python3'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'sh'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'svn'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'ruby': '/usr/bin/ruby'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'rake'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'rake': '/usr/bin/rake'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'svn'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'generator'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Not found.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/xcode-select'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Arguments: '-p'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] Process started with process id 78222, waiting for process exit.
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] Exited process 78222 with exit code 0
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-28 15:00:32Z INFO ProcessInvokerWrapper] Finished process 78222 with exit code 0, and elapsed time 00:00:00.0440967.
+[2024-05-28 15:00:32Z INFO CapabilitiesBuilder] Adding 'xcode': '/Applications/Xcode.app/Contents/Developer'
+[2024-05-28 15:00:32Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:32Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ip-192-168-86-200'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Darwin'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'ARM64'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '14.4'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '3.239.1'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'ip-192-168-86-200'
+[2024-05-28 15:00:32Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:32Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 15:00:32Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/Users/cjoga/myagent'
+[2024-05-28 15:00:32Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2024-05-28 15:00:33Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2024-05-28 15:00:33Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/JCJG0001/'.
+[2024-05-28 15:00:33Z INFO ConfigurationStore] Saving OAuth credential @ /Users/cjoga/myagent/.credentials
+[2024-05-28 15:00:33Z INFO ConfigurationStore] Credentials Saved.
+[2024-05-28 15:00:33Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2024-05-28 15:00:33Z INFO ConfigurationStore] HasCredentials()
+[2024-05-28 15:00:33Z INFO ConfigurationStore] stored True
+[2024-05-28 15:00:33Z INFO CredentialManager] GetCredentialProvider
+[2024-05-28 15:00:33Z INFO CredentialManager] Creating type OAuth
+[2024-05-28 15:00:33Z INFO CredentialManager] Creating credential type: OAuth
+[2024-05-28 15:00:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:33Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2024-05-28 15:00:34Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:34Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/4017af08-a2e1-4daa-9180-5b3bc8ee84fa, Basic realm="https://tfsprodcus12.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 7eadeb88-f27a-4970-a1ad-5e695044503a
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: a1fdc0ad-769f-4568-add6-1bf79ce1cf7d
+X-TFS-Session: a9576b84-d8d6-419a-a19c-eb990939e1b1
+X-VSS-E2EID: e2c91dee-3f40-40d7-be6f-018942552005
+X-VSS-SenderDeploymentId: f466e928-5898-edb4-7123-84c15666043f
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus12.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/JCJG0001/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/JCJG0001/
+X-VSS-ResourceTenant: 4017af08-a2e1-4daa-9180-5b3bc8ee84fa
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodwus31.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FJCJG0001%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D44548118%26lastChangeId64%3D44548118&redirect=1&hid=c212cedd-1e4a-446d-9531-bd5859276062&context=eyJodCI6MiwiaGlkIjoiNDBhZmM2MzAtNWFmNy00MmUwLWJlMzQtNTczMGQ5M2ZlOTM2IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:ba8cca98-f9cc-4f08-a334-706ff8d04ac6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 542ABEAE13C14CA995CE9DCA4D4932B7 Ref B: MIAEDGE1307 Ref C: 2024-05-28T15:00:34Z
+Date: Tue, 28 May 2024 15:00:33 GMT
+
+[2024-05-28 15:00:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:34Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2024-05-28 15:00:34Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:35Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-05-28 15:00:35Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:35Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-05-28 15:00:35Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-05-28 15:00:35Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:35Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-05-28 15:00:35Z INFO CommandSettings] Arg 'work': ''
+[2024-05-28 15:00:35Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-05-28 15:00:35Z INFO PromptManager] ReadValue
+[2024-05-28 15:00:35Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2024-05-28 15:00:35Z INFO Terminal] READ LINE
+[2024-05-28 15:00:37Z INFO Terminal] Read value: ''
+[2024-05-28 15:00:37Z INFO PromptManager] Falling back to the default: '_work'
+[2024-05-28 15:00:37Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2024-05-28 15:00:37Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2024-05-28 15:00:37Z INFO ConfigurationStore] Saving agent settings.
+[2024-05-28 15:00:37Z INFO ConfigurationStore] Settings Saved.
+[2024-05-28 15:00:37Z INFO Terminal] WRITE LINE: 2024-05-28 15:00:37Z: Settings Saved.
+[2024-05-28 15:00:37Z INFO MacOSServiceControlManager] Service name 'vsts.agent.JCJG0001.FLBETANCES - POOL.ip-192-168-86-200' display name 'Azure Pipelines Agent (JCJG0001.FLBETANCES - POOL.ip-192-168-86-200)' will be used for service configuration.
+[2024-05-28 15:00:37Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:37Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 15:00:37Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:37Z INFO HostContext] Well known directory 'Bin': '/Users/cjoga/myagent/bin'
+[2024-05-28 15:00:37Z INFO HostContext] Well known directory 'Root': '/Users/cjoga/myagent'
+[2024-05-28 15:00:37Z INFO UnixUtil] Which: 'chmod'
+[2024-05-28 15:00:37Z INFO UnixUtil] Location: '{matches.First()}'
+[2024-05-28 15:00:37Z INFO UnixUtil] Running /bin/chmod 755 "/Users/cjoga/myagent/svc.sh"
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/cjoga/myagent/svc.sh"'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Working directory: '/Users/cjoga/myagent'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] Process started with process id 78241, waiting for process exit.
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] Exited process 78241 with exit code 0
+[2024-05-28 15:00:37Z INFO ProcessInvokerWrapper] Finished process 78241 with exit code 0, and elapsed time 00:00:00.0700200.
+[2024-05-28 15:00:37Z INFO ConfigurationStore] HasCredentials()
+[2024-05-28 15:00:37Z INFO ConfigurationStore] stored True
+[2024-05-28 15:00:37Z INFO CredentialManager] GetCredentialProvider
+[2024-05-28 15:00:37Z INFO CredentialManager] Creating type OAuth
+[2024-05-28 15:00:37Z INFO CredentialManager] Creating credential type: OAuth
+[2024-05-28 15:00:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:37Z INFO ConfigurationManager] LoadSettings
+[2024-05-28 15:00:37Z INFO ConfigurationStore] IsConfigured()
+[2024-05-28 15:00:37Z INFO ConfigurationStore] IsConfigured: True
+[2024-05-28 15:00:37Z INFO ConfigurationManager] Is configured: True
+[2024-05-28 15:00:37Z INFO ConfigurationStore] Read setting file: 206 chars
+[2024-05-28 15:00:37Z INFO ConfigurationManager] Settings Loaded
+[2024-05-28 15:00:37Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/4017af08-a2e1-4daa-9180-5b3bc8ee84fa, Basic realm="https://tfsprodcus12.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: c4cdb6cd-3238-4879-9e97-149164a42f5e
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: dadc5bda-9217-45c2-87f4-9884ca33c2a1
+X-TFS-Session: a9576b84-d8d6-419a-a19c-eb990939e1b1
+X-VSS-E2EID: 7333ff14-6703-4d15-a6c7-710a49973f08
+X-VSS-SenderDeploymentId: f466e928-5898-edb4-7123-84c15666043f
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus12.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/JCJG0001/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/JCJG0001/
+X-VSS-ResourceTenant: 4017af08-a2e1-4daa-9180-5b3bc8ee84fa
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodwus31.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FJCJG0001%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=c212cedd-1e4a-446d-9531-bd5859276062&context=eyJodCI6MiwiaGlkIjoiNDBhZmM2MzAtNWFmNy00MmUwLWJlMzQtNTczMGQ5M2ZlOTM2IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:ba8cca98-f9cc-4f08-a334-706ff8d04ac6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 0950F7CA7F354500809E29811FD81C23 Ref B: MIAEDGE2807 Ref C: 2024-05-28T15:00:37Z
+Date: Tue, 28 May 2024 15:00:37 GMT
+
+[2024-05-28 15:00:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/cjoga/myagent/.credentials_rsaparams
+[2024-05-28 15:00:38Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown

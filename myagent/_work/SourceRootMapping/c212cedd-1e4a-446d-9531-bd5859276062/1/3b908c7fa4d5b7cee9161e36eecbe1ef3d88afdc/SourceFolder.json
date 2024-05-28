@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1/a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/JCJG0001/",
+  "definitionName": "FLBETANCES - TEST",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "Git",
+      "repositoryUrl": "https://JCJG0001@dev.azure.com/JCJG0001/FLBETANCES%20-%20TEST/_git/FLBETANCES%20-%20TEST",
+      "sourcesDirectory": "1/s/FLBETANCES - TEST"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "05/28/2024 15:56:16 -04:00",
+  "repositoryType": "Git",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1/s",
+  "common_testresultsdirectory": "1/TestResults",
+  "collectionId": "c212cedd-1e4a-446d-9531-bd5859276062",
+  "definitionId": "1",
+  "hashKey": "3b908c7fa4d5b7cee9161e36eecbe1ef3d88afdc",
+  "repositoryUrl": "https://JCJG0001@dev.azure.com/JCJG0001/FLBETANCES%20-%20TEST/_git/FLBETANCES%20-%20TEST",
+  "system": "build"
+}

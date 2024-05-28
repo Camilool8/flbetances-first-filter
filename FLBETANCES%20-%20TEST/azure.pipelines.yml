@@ -1,0 +1,39 @@
+trigger:
+  - main
+
+pool:
+  name: FLBETANCES - POOL
+  vmImage: "ubuntu-latest"
+
+stages:
+  - stage: BuildAndPushDockerImage
+    jobs:
+      - job: BuildAndPush
+        steps:
+          - script: |
+              echo "Docker login"
+              echo $(DOCKER_PASSWORD) | docker login -u $(DOCKER_USERNAME) --password-stdin
+              echo "Building Docker image"
+              docker buildx build --platform linux/amd64 -t $(DOCKER_USERNAME)/flbetances-test:latest .
+              echo "Pushing Docker image"
+              docker push $(DOCKER_USERNAME)/flbetances-test:latest
+            displayName: "Build and Push Docker Image"
+
+  - stage: RunTasks
+    jobs:
+      - job: PrintHelloWorld
+        strategy:
+          parallel: 10
+        steps:
+          - script: |
+              echo "Hola Mundo"
+            displayName: "Print Hola Mundo"
+
+      - job: CreateAndListFiles
+        steps:
+          - script: |
+              for i in {1..10}; do
+                date > file_$i.txt
+                cat "file_$i.txt"
+              done
+            displayName: "Create and List Files"
